@@ -1,0 +1,16 @@
+Diferencias clave entre forEach(), map(), y for
+
+RETORNO:
+● forEach(): No retorna nada. Solo ejecuta una acción sobre cada elemento.
+● map(): Retorna un nuevo arreglo con los elementos transformados.
+● for: No retorna nada. Solo realiza un proceso dentro del ciclo.
+
+MUTABILIDAD:
+● forEach(): Modifica elementos del arreglo original si se usan
+referencias (pero no crea un nuevo arreglo).
+● map(): No modifica el arreglo original. Crea un nuevo arreglo con los valores modificados.
+● for: Puede modificar el arreglo original o crear una nueva variable de resultado, dependiendo de cómo se use.
+
+VELOCIDAD Y OPTIMIZACIÓN:
+● forEach() y map() son más declarativos y más fáciles de leer cuando necesitamos trabajar con arreglos.
+● for es un bucle más general y flexible, pero puede ser menos legible cuando estamos trabajando específicamente con arreglos.
