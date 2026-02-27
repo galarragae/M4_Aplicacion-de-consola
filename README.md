@@ -1,6 +1,7 @@
 # Aplicación de Consola en JavaScript
 
 Proyecto del **Bootcamp de Desarrollo de Aplicaciones Front-End**.
+
 Módulo 4: _Fundamentos de Programación en JavaScript_.
 
 La aplicación permite realizar operaciones matemáticas básicas, trabajar con condicionales, bucles, funciones, arreglos y objetos, todo ejecutado en el **navegador y/o en la consola del mismo**.
