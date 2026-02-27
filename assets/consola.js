@@ -166,7 +166,7 @@ function calcular(operacion, num1, num2) {
     case "sumar":
       return `Número 1: ${num1}\nNúmero 2: ${num2}\nEl resultado de la suma es: ${sumar(num1, num2)}`;
     case "restar":
-      return `Número 1: ${num1}\nNúmero 2: ${num2}\nEl resultado de la resta es: ${restar(num1, num2)}`;
+      return `Número 1: ${num1}\n Número 2: ${num2}\nEl resultado de la resta es: ${restar(num1, num2)}`;
     case "multiplicar":
       return `Número 1: ${num1}\nNúmero 2: ${num2}\nEl resultado de la multiplicación es: ${multiplicar(num1, num2)}`;
     case "dividir":

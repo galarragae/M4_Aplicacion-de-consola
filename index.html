@@ -6,30 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplicación en consola</title>
 
-  <script defer src=""></script>
+  <script defer src="assets/consola.js"></script>
 </head>
 
 <body>
   <h1>¡Bienvenido a la calculadora virtual!</h1>
-  <h3>Para ejecutar desde la consola (default/por defecto):</h3>
-  <ul>
-    <li><b>Windows:</b> Abre la consola con F12 → pestaña Console</li>
-    <li><b>Mac:</b> Abre la consola presionando ⌘ + Option +
-      J (Command + Option + J)</li>
-  </ul>
-  <ol>
-    <li>Escribe ' calcular (<i>operacion</i>, <i>num1</i>, <i>num2</i>); ' en la consola.</li>
-    <li>Sustituye '<i>operacion</i>' por un operador válido y entre comillas: <br>"sumar" para suma <br>"restar" para
-      resta<br>"multiplicar" para
-      multiplicación<br>"dividir" para división</li>
-    <li>Sustituye '<i>num1</i>'
-      y '<i>num2</i>' por 2 números con los que quieras operar (deben ser números enteros -sin
-      decimales-)</li>
-  </ol>
-  <p><b>Ejemplo:</b> calcular ("+", 1, 2,);<br>En consola debe aparecer el mensaje <b>"El resultado es: 3"</b></p>
 
-
-  <h3><br><br>Para ejecutar como usuario:</h3>
+  <h3>Para ejecutar como usuario (default/por defecto):</h3>
   <p>
     Para ello, debes enlazar el script '<b>prompts-y-alerts.js</b>' en este HTML (en lugar del que ya está
     enlazado: '<b>consola.js</b>').
@@ -38,7 +21,7 @@
     <li>Aparecerán "prompts" o ventanas para capturar los datos con los que quieres operar (<i>Operación</i>, <i>Número
         1</i> y <i>Número 2</i>)</li>
     <li>Sigue las instrucciones de cada prompt:</li>
-    <ol>
+    <ol style="list-style-type:lower-alpha">
       <li>Escribe el <b><i>operador</i></b> que deseas utilizar o <b><i>salir</i></b> para detener la ejecución de la
         calculadora</li>
       <li>Escribe el <b><i>primer número</i></b> para ejecutar la operación.</li>
@@ -47,6 +30,26 @@
     </ol>
   </ol>
   <p>¿Qué pasaría si <b>alguno de los datos ingresados</b> no fuera válido? <b>¡Inténtalo!</b></p>
+
+  <h3><br>Para ejecutar desde la consola:</h3>
+  <ul>
+    <li><b>Windows:</b> Abre la consola con F12 → pestaña Console</li>
+    <li><b>Mac:</b> Abre la consola presionando ⌘ + Option +
+      J (Command + Option + J)</li>
+  </ul>
+  <ol>
+    <li>Escribe ' calcular (<i>operacion</i>, <i>num1</i>, <i>num2</i>); ' en la consola.</li>
+    <li>Sustituye '<i><b>operacion</b></i>' por un operador válido y entre comillas: <br><b>"sumar"</b> para suma
+      <br><b>"restar"</b> para
+      resta<br><b>"multiplicar"</b> para
+      multiplicación<br><b>"dividir"</b> para división
+    </li>
+    <li>Sustituye '<i><b>num1</b></i>'
+      y '<i><b>num2</b></i>' por 2 números con los que quieras operar (deben ser números enteros -sin
+      decimales-)</li>
+  </ol>
+  <p><b>Ejemplo:</b> calcular ("sumar", 3, 5);<br>En consola debe aparecer el mensaje: 'Número 1:
+    <b>3</b><i>\n</i>Número 2: <b>5</b><i>\n</i><b>El resultado de la suma es: 8</b>'</p>
 </body>
 
 </html>
